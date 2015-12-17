@@ -1,3 +1,4 @@
+HQL:
 1.在使用createQuery时也可以使用query.setPa()方法。
 	eg:
 		(1).
@@ -6,5 +7,9 @@
 		(2).
 			String sql = "SELECT * FROM eg(表名) WHERE name = ?";
 			query.setpa(0,name);
+
+
+Git:
+	1.每次在使用命令行对文件进行修改时,都要重新进行一次add.
 			
 
