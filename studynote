@@ -19,5 +19,6 @@ Git:
 jquery:
 	1.获取被选择radio的值：
 		var isChecked = $("input:radio[name=inputName]:checked").val();
-			
+	2.获取被选中的option的文本内容：
+		var optionText = $("#id  option:selected").text();
 
