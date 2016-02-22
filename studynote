@@ -21,4 +21,11 @@ jquery:
 		var isChecked = $("input:radio[name=inputName]:checked").val();
 	2.获取被选中的option的文本内容：
 		var optionText = $("#id  option:selected").text();
+spring:
+	
 
+
+学习疑问：
+	1.global session 用于系统之间的共享session?
+	2.context-param与dispatcher的配置文件哪个先加载?
+	3.web.xml内的加载顺?
